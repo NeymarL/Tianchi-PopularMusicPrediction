@@ -1,6 +1,9 @@
-# Instruction
+# Tianchi Popular Music Prediction Competition
+> Team `42`
 
-## data 目录结构(没push到远程仓库)
+---
+## 逐天预测（代码在`old`文件夹里）
+### data 目录结构(没push到远程仓库)
 
 * `datas`
     * `feats`       存放生成好的特征，文件名格式：feats20150901.csv
@@ -14,7 +17,7 @@
     * `mars_tianchi_songs.csv`
 
 
-## 训练流程
+### 训练流程
 
 **pre_process.py**
 
@@ -72,6 +75,9 @@
 
 * 串联整个流程，连续训练出60天的结果
 
+## 直接预测60天
+
+尝试的各种模型都在主文件夹下，第二赛季的SQL代码在`p2`目录下。
 
 ---
 题目位置
